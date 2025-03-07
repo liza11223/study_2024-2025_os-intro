@@ -1,8 +1,8 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Структура научной презентации
-subtitle: Простейший шаблон
+title: Лабораторная работа №1
+subtitle: Операционные системы
 author:
   - Киселева Е. А., НКАбд-02-24
 institute:
