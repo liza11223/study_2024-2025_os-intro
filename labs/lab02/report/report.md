@@ -4,10 +4,6 @@ title: "Отчет по лабораторной работе №2"
 subtitle: "Операционные системы"w 
 author: "Киселева Елизавета Александровна"
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
-
 ## Bibliography
 bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
@@ -32,41 +28,6 @@ polyglossia-otherlangs:
 ## I18n babel
 babel-lang: russian
 babel-otherlangs: english
-## Fonts
-mainfont: IBM Plex Serif
-romanfont: IBM Plex Serif
-sansfont: IBM Plex Sans
-monofont: IBM Plex Mono
-mathfont: STIX Two Math
-mainfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-romanfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
-sansfontoptions: Ligatures=Common,Ligatures=TeX,Scale=MatchLowercase,Scale=0.94
-monofontoptions: Scale=MatchLowercase,Scale=0.94,FakeStretch=0.9
-mathfontoptions:
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
----
 
 # Цель работы
 
@@ -82,10 +43,6 @@ header-includes:
 6. Создать локальный каталог для выполнения заданий по предмету.
 
 # Выполнение лабораторной работы
-
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001]).
-
-![Название рисунка](image/placeimg_800_600_tech.jpg){#fig:001 width=70%}
 
 ## Установка программного обеспечения
 
@@ -105,7 +62,7 @@ header-includes:
 
 Начальной ветке задаю имя master (рис. [-@fig:004]).
 
-![Задаю имя начальной ветки](mnt/1 (96.bmp){#fig:004 width=70%}
+![Задаю имя начальной ветки](mnt/1 (96).bmp){#fig:004 width=70%}
 
 Задаю параметры autocrlf и safecrlf для корректного отображения конца строки (рис. [-@fig:005]).
 
@@ -117,9 +74,9 @@ header-includes:
 
 ![Генерация ssh ключа по алгоритму rsa](mnt/1 (98).bmp){#fig:006 width=70%}
 
-Создаю ключ ssh по алгоритму ed25519 (рис. @fig:007).
+Создаю ключ ssh по алгоритму ed25519 (рис. [-@fig:007]).
 
-![Генерация ssh ключа по алгоритму ed25519](image/7.png){#fig:007 width=70%}
+![Генерация ssh ключа по алгоритму ed25519](mnt/1 (99).bmp){#fig:007 width=70%}
 
 ## Создание ключа GPG
 
@@ -132,17 +89,17 @@ header-includes:
 Вывожу список созданных ключей в терминал, ищу в результате запроса отпечаток ключа (последовательность байтов для идентификации более длинного, по сравнению с самим отпечатком, ключа), он стоит после знака слеша, 
 копирую его в буфер обмена (рис. [-@fig:009]).
 
-![Вывод списка ключей](mnt/1 (101).bmp){#fig:009 width=70%}1	
+![Вывод списка ключей](mnt/1 (101).bmp){#fig:009 width=70%}	
 
 Нажимаю на "New GPG key" и вставляю в поле ключ из буфера обмена (рис. [-@fig:010]).
 
-![Добавление нового PGP ключа](imnt/1 (103).bmp){#fig:010 width=70%}
+![Добавление нового PGP ключа](mnt/1 (103).bmp){#fig:010 width=70%}
 
 ## Настроить подписи Git
 
 Настраиваю автоматические подписи коммитов git: используя введенный ранее email, указываю git использовать его при создании подписей коммитов (рис. [-@fig:011]).
 
-![Настройка подписей Git](mnt/1 (105).bmp){#fig:003 width=70%}
+![Настройка подписей Git](mnt/1 (105).bmp){#fig:011 width=70%}
 
 ## Настройка gh
 
