@@ -1,8 +1,12 @@
 ---
 ## Front matter
 title: "Отчет по лабораторной работе №2"
-subtitle: "Операционные системы"w 
+subtitle: "Операционные системы"
 author: "Киселева Елизавета Александровна"
+
+## Generic otions
+lang: ru-RU
+toc-title: "Содержание"
 
 ## Bibliography
 bibliography: bib/cite.bib
@@ -28,6 +32,41 @@ polyglossia-otherlangs:
 ## I18n babel
 babel-lang: russian
 babel-otherlangs: english
+## Fonts
+mainfont: IBM Plex Serif
+romanfont: IBM Plex Serif
+sansfont: IBM Plex Sans
+monofont: IBM Plex Mono
+mathfont: STIX Two Math
+mainfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
+romanfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
+sansfontoptions: Ligatures=Common,Ligatures=TeX,Scale=MatchLowercase,Scale=0.94
+monofontoptions: Scale=MatchLowercase,Scale=0.94,FakeStretch=0.9
+mathfontoptions:
+## Biblatex
+biblatex: true
+biblio-style: "gost-numeric"
+biblatexoptions:
+  - parentracker=true
+  - backend=biber
+  - hyperref=auto
+  - language=auto
+  - autolang=other*
+  - citestyle=gost-numeric
+## Pandoc-crossref LaTeX customization
+figureTitle: "Рис."
+tableTitle: "Таблица"
+listingTitle: "Листинг"
+lofTitle: "Список иллюстраций"
+lotTitle: "Список таблиц"
+lolTitle: "Листинги"
+## Misc options
+indent: true
+header-includes:
+  - \usepackage{indentfirst}
+  - \usepackage{float} # keep figures where there are in the text
+  - \floatplacement{figure}{H} # keep figures where there are in the text
+---
 
 # Цель работы
 
