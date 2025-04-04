@@ -9,7 +9,7 @@ lang: ru-RU
 toc-title: "Содержание"
 
 ## Bibliography
-bibliography: bib/cite.bib
+bibliography: references.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
 ## Pdf output format
