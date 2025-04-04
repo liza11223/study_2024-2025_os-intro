@@ -162,47 +162,5 @@ MAC-системы, такие как SELinux и AppArmor, позволяют з
 Защита файлов является важной составляющей общей безопасности операционной системы. В каждой ОС существуют собственные механизмы защиты, однако объединяет их стремление предоставить пользователю различные уровни безопасности, начиная от базовых прав доступа до сложных систем шифрования и контроля. Важно правильно настроить эти механизмы в зависимости от потребностей пользователя или организации, чтобы обеспечить высокий уровень защиты данных.
 
 ## Список литературы
-См. файл `references.bib`.
+См. библиографию [@stallings2017; @tanenbaum2015; @west2008; @kaspersky2023].
 
----
-
-## Bib-файл (references.bib)
-
-'''bitex
-@misc{kaspersky2023,
-  title={Отчет о киберугрозах 2023},
-  author={Kaspersky Lab},
-  year={2023},
-  url={https://www.kaspersky.ru/blog/threats-report-2023}
-}
-
-@misc{linuxaccess2022,
-  title={POSIX File Permissions Explained},
-  author={Linux Handbook},
-  year={2022},
-  url={https://linuxhandbook.com/file-permissions/}
-}
-
-@misc{audit2023,
-  title={Auditd - Linux Security Auditing},
-  author={Red Hat},
-  year={2023},
-  url={https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/using-the-audit-service_security-hardening}
-}
-
-@misc{selinux2022,
-  title={SELinux Project Wiki},
-  author={SELinux Community},
-  year={2022},
-16:55
-
-url={https://selinuxproject.org/page/Main_Page}
-}
-
-@misc{luks2021,
-  title={LUKS Disk Encryption},
-  author={Linux Kernel Documentation},
-  year={2021},
-  url={https://gitlab.com/cryptsetup/cryptsetup/-/wikis/FrequentlyAskedQuestions}
-}
-'''
